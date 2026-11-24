@@ -1,0 +1,45 @@
+{
+  "Sunday": [
+    {
+      "Name": null,
+      "Start": "08:00:00",
+      "End": "09:00:00"
+    }
+  ],
+  "Monday": [],
+  "Tuesday": [
+    {
+      "Name": "Math",
+      "Start": "00:00:00",
+      "End": "23:59:59.9999999"
+    }
+  ],
+  "Wednesday": [
+    {
+      "Name": null,
+      "Start": "08:00:00",
+      "End": "09:00:00"
+    }
+  ],
+  "Thursday": [
+    {
+      "Name": null,
+      "Start": "08:00:00",
+      "End": "09:00:00"
+    }
+  ],
+  "Friday": [
+    {
+      "Name": null,
+      "Start": "08:00:00",
+      "End": "09:00:00"
+    }
+  ],
+  "Saturday": [
+    {
+      "Name": null,
+      "Start": "08:00:00",
+      "End": "09:00:00"
+    }
+  ]
+}

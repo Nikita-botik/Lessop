@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lessop.AddLessonPage"
+             WidthRequest="600"
+             xmlns:local="clr-namespace:Lessop.Resources.Strings">
+
+    <Grid x:Name="MyGrid" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="{AppThemeBinding Light='#d5d5d5', Dark='#353535'}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        
+        <StackLayout Orientation="Vertical" Margin="0, 10, 0, 0" Grid.Row="0">
+            <Label Text="{Binding Source={x:Static local:AppResources.AddNewLesson}, Converter={StaticResource ResourceConverter}}" 
+               FontSize="Large" HorizontalOptions="Center"/>
+            <Entry Placeholder="{Binding Source={x:Static local:AppResources.PlaceNameOfLesson}, Converter={StaticResource ResourceConverter}}" BackgroundColor="{AppThemeBinding Light='#969696', Dark='#202020'}"
+               x:Name="EnterTheName"/>
+            <Editor Placeholder="{Binding Source={x:Static local:AppResources.PlaceDescriptionOfLesson}, Converter={StaticResource ResourceConverter}}" BackgroundColor="{AppThemeBinding Light='#969696', Dark='#202020'}" VerticalTextAlignment="Center"
+                x:Name="EnterTheDescription" Margin="0, 20, 0, 0" AutoSize="TextChanges"/>
+            <Editor Placeholder="{Binding Source={x:Static local:AppResources.PlaceURLOfLesson}, Converter={StaticResource ResourceConverter}}" BackgroundColor="{AppThemeBinding Light='#969696', Dark='#202020'}" VerticalTextAlignment="Center"
+                x:Name="EnterTheURL" Margin="0, 20, 0, 0" AutoSize="TextChanges"/>
+        </StackLayout>
+
+        <Button Text="{Binding Source={x:Static local:AppResources.SaveButton}, Converter={StaticResource ResourceConverter}}" 
+            Clicked="Save" Margin="0,20,0,20" VerticalOptions="End" Grid.Row="2"/>
+    </Grid>
+</ContentPage>

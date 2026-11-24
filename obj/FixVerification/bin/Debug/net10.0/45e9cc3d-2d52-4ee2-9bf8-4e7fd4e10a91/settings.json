@@ -1,0 +1,19 @@
+{
+  "ans": false,
+  "OAO_Mode": false,
+  "isRaidButton": true,
+  "isStart": true,
+  "SelectedRegion": {
+    "Name": "",
+    "Tag": "78"
+  },
+  "LessonsCountMonday": 7,
+  "LessonsCountTuesday": 7,
+  "LessonsCountWednesday": 7,
+  "LessonsCountThursday": 7,
+  "LessonsCountFriday": 7,
+  "LessonsCountSaturday": 7,
+  "LessonsCountSunday": 7,
+  "isAnswer": false,
+  "unans": false
+}

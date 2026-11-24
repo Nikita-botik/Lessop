@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lessop.ViewLessonPage"
+             WidthRequest="600"
+             xmlns:local="clr-namespace:Lessop.Resources.Strings">
+
+    <Grid x:Name="MyGrid" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="{AppThemeBinding Light='#d5d5d5', Dark='#353535'}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Picker  Title="{Binding Source={x:Static local:AppResources.SelectLesson}, Converter={StaticResource ResourceConverter}}" x:Name="RegionSelect" VerticalOptions="Start" HorizontalOptions="FillAndExpand" Grid.Row="0" BackgroundColor="{AppThemeBinding Light='#AFAFAF', Dark='#505050'}"
+            SelectedIndexChanged="OnSelectedLessonChanged"/>
+        <StackLayout Orientation="Vertical" Grid.Row="1">
+            <Label x:Name="DescriptionLesson" Text="{Binding Source={x:Static local:AppResources.Discription}, Converter={StaticResource ResourceConverter}}" FontSize="Medium" Margin="10,10,10,0"/>
+            <Label x:Name="LessonURL" FontSize="Medium" Margin="10,10,0,0" Text="{Binding Source={x:Static local:AppResources.URLL}, Converter={StaticResource ResourceConverter}}"/>
+            <Button x:Name="Delete" FontSize="Medium" Margin="10,10,10,0" Text="{Binding Source={x:Static local:AppResources.Delete}, Converter={StaticResource ResourceConverter}}" Clicked="Delete_Clicked" IsVisible="False"/>
+        </StackLayout>
+    </Grid>
+</ContentPage>

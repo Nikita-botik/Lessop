@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <DefineConstants>WINDOWS</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../Resources/Scripts/DiarySchedule.cs" />
+    <Compile Include="../../Resources/Scripts/SaveLessonTime.cs" />
+    <Compile Include="../../Resources/Scripts/JSE.cs" />
+    <Compile Include="../../Resources/Scripts/LocalDataFile.cs" />
+    <Compile Include="../../Resources/Scripts/saveLesson.cs" />
+    <Compile Include="../../Resources/Scripts/SaveSettings.cs" />
+    <Compile Include="../../Resources/Scripts/Programs.cs" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>$(UserProfile)/.nuget/packages/newtonsoft.json/13.0.3/lib/net6.0/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

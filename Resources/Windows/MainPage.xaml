@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lessop.MainPage"
+             WidthRequest="600"
+             xmlns:local="clr-namespace:Lessop.Resources.Strings"
+             BackgroundColor="Black"
+             >
+
+    <Grid x:Name="MyGrid" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="{AppThemeBinding Light='#d5d5d5', Dark='#353535'}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <StackLayout Orientation="Horizontal" Grid.Row="0" VerticalOptions="Center" Margin="5" HorizontalOptions="Fill" >
+            <Button BackgroundColor='#FF878787' x:Name="StartButton" HorizontalOptions="FillAndExpand" Text="{Binding Source={x:Static local:AppResources.StartButtonx}, Converter={StaticResource ResourceConverter}}"
+                    HeightRequest="50" Margin="5" IsEnabled="False" Clicked="StartButton_Click"/>
+            <Button BackgroundColor='#FF878787' x:Name="StopButton" HorizontalOptions="FillAndExpand" Text="{Binding Source={x:Static local:AppResources.StopButtonx}, Converter={StaticResource ResourceConverter}}"
+                    HeightRequest="50" Margin="5" IsEnabled="False" Clicked="StopButton_Click"/>
+        </StackLayout>
+
+
+        <StackLayout Grid.Row="2" Orientation="Horizontal" HorizontalOptions="Fill">
+            <Picker BackgroundColor='#505050' Title="{Binding Source={x:Static local:AppResources.SelectRegion}, Converter={StaticResource ResourceConverter}}" x:Name="RegionSelect" VerticalOptions="End" HorizontalOptions="FillAndExpand" 
+        ItemsSource="{Binding Options}"
+        ItemDisplayBinding="{Binding Name}"
+        SelectedItem="{Binding SelectedOption}"
+        SelectedIndexChanged="OnSelectedRegionChanged"/>
+        </StackLayout>
+        <VerticalStackLayout Grid.Row="1">
+            <HorizontalStackLayout>
+                <CheckBox x:Name="OAOM" IsChecked="False" CheckedChanged="OAOMChanged"/>
+                <Label Text="{Binding Source={x:Static local:AppResources.OnAndOffMode}, Converter={StaticResource ResourceConverter}}" FontSize="20" VerticalOptions="Center"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <CheckBox x:Name="isRaidButton" IsChecked="False" CheckedChanged="IsAlarmOrNotChanged"/>
+                <Label Text="{Binding Source={x:Static local:AppResources.IsAlarmOrNot}, Converter={StaticResource ResourceConverter}}" FontSize="20" VerticalOptions="Center" />
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+
+
+    </Grid>
+</ContentPage>

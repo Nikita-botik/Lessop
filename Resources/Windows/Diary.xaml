@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lessop.Diary"
+             WidthRequest="600"
+             xmlns:local="clr-namespace:Lessop.Resources.Strings"
+             xmlns:picker="clr-namespace:Syncfusion.Maui.Picker;assembly=Syncfusion.Maui.Picker"  
+>
+
+    <Grid x:Name="MyGrid" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#353535">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <StackLayout>
+            <Button VerticalOptions="StartAndExpand" Margin="10,10,10,0" Text="{Binding Source={x:Static local:AppResources.Monday}, Converter={StaticResource ResourceConverter}}" FontSize="Medium" FontFamily="bold" Clicked="MondayClicked"/>
+            <Button VerticalOptions="StartAndExpand" Margin="10,10,10,0" Text="{Binding Source={x:Static local:AppResources.Tuesday}, Converter={StaticResource ResourceConverter}}" FontSize="Medium" FontFamily="bold" Clicked="TuesdayClicked"/>
+            <Button VerticalOptions="StartAndExpand" Margin="10,10,10,0" Text="{Binding Source={x:Static local:AppResources.Wednesday}, Converter={StaticResource ResourceConverter}}" FontSize="Medium" FontFamily="bold" Clicked="WednesdayClicked"/>
+            <Button VerticalOptions="StartAndExpand" Margin="10,10,10,0" Text="{Binding Source={x:Static local:AppResources.Thursday}, Converter={StaticResource ResourceConverter}}" FontSize="Medium" FontFamily="bold" Clicked="ThursdayClicked"/>
+            <Button VerticalOptions="StartAndExpand" Margin="10,10,10,0" Text="{Binding Source={x:Static local:AppResources.Friday}, Converter={StaticResource ResourceConverter}}" FontSize="Medium" FontFamily="bold" Clicked="FridayClicked"/>
+            <Button VerticalOptions="StartAndExpand" Margin="10,10,10,0" Text="{Binding Source={x:Static local:AppResources.Saturday}, Converter={StaticResource ResourceConverter}}" FontSize="Medium" FontFamily="bold" Clicked="SaturdayClicked"/>
+            <Button VerticalOptions="StartAndExpand" Margin="10,10,10,0" Text="{Binding Source={x:Static local:AppResources.Sunday}, Converter={StaticResource ResourceConverter}}" FontSize="Medium" FontFamily="bold" Clicked="SundayClicked"/>
+        </StackLayout>
+    </Grid>
+</ContentPage>
