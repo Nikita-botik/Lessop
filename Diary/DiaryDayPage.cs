@@ -1,8 +1,7 @@
 using System.Diagnostics;
 using System.Text.Json;
 using AutoMeetings;
-using 
-    .Resources.Strings;
+using Lessop.Resources.Strings;
 
 namespace Lessop;
 

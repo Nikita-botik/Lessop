@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ms4Lg9miw1E=",
+  "dgSpecHash": "iyiKD8POjzY=",
   "success": true,
-  "projectFilePath": "E:\\MyProjects\\AutoMeetingsPort\\AutoMeetingsPort\\AutoMeetingsPort.csproj",
+  "projectFilePath": "E:\\MinecraftMods\\ProjectPrime\\Lessop\\Lessop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nikit\\.nuget\\packages\\communitytoolkit.winui.notifications\\7.1.2\\communitytoolkit.winui.notifications.7.1.2.nupkg.sha512",
     "C:\\Users\\nikit\\.nuget\\packages\\htmlagilitypack\\1.12.0\\htmlagilitypack.1.12.0.nupkg.sha512",
@@ -46,11 +46,7 @@
     "C:\\Users\\nikit\\.nuget\\packages\\syncfusion.maui.picker\\28.2.11\\syncfusion.maui.picker.28.2.11.nupkg.sha512",
     "C:\\Users\\nikit\\.nuget\\packages\\syncfusion.maui.popup\\28.2.11\\syncfusion.maui.popup.28.2.11.nupkg.sha512",
     "C:\\Users\\nikit\\.nuget\\packages\\system.drawing.common\\8.0.0\\system.drawing.common.8.0.0.nupkg.sha512",
-    "C:\\Users\\nikit\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\10.0.12\\microsoft.netcore.app.crossgen2.win-x64.10.0.12.nupkg.sha512",
-    "C:\\Users\\nikit\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.57\\microsoft.windows.sdk.net.ref.10.0.19041.57.nupkg.sha512",
-    "C:\\Users\\nikit\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\10.0.12\\microsoft.aspnetcore.app.runtime.win-x64.10.0.12.nupkg.sha512",
-    "C:\\Users\\nikit\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\10.0.12\\microsoft.windowsdesktop.app.runtime.win-x64.10.0.12.nupkg.sha512",
-    "C:\\Users\\nikit\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\10.0.12\\microsoft.netcore.app.runtime.win-x64.10.0.12.nupkg.sha512"
+    "C:\\Users\\nikit\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.57\\microsoft.windows.sdk.net.ref.10.0.19041.57.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,7 +1,6 @@
 using System.Text.Json;
 
-namespace 
-    ;
+namespace Lessop;
 
 internal sealed record ScheduledLesson(string? Name, TimeSpan? Start, TimeSpan? End)
 {

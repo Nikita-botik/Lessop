@@ -1,5 +1,4 @@
-namespace 
-    ;
+namespace Lessop;
 
 public partial class MondayPage : DiaryDayPage
 {

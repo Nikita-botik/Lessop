@@ -536,3 +536,15 @@ E:\MyProjects\AutoMeetingsPort\AutoMeetingsPort\obj\Debug\net10.0-windows10.0.19
 E:\MyProjects\AutoMeetingsPort\AutoMeetingsPort\obj\Debug\net10.0-windows10.0.19041.0\win-x64\qualifiers.txt
 E:\MyProjects\AutoMeetingsPort\AutoMeetingsPort\obj\Debug\net10.0-windows10.0.19041.0\win-x64\qualifiers.txt.intermediate
 E:\MyProjects\AutoMeetingsPort\AutoMeetingsPort\obj\Debug\net10.0-windows10.0.19041.0\win-x64\MultipleQualifiersPerDimensionFound.txt
+E:\MinecraftMods\ProjectPrime\Lessop\obj\Debug\net10.0-windows10.0.19041.0\win-x64\AutoMeetingsPort.csproj.AssemblyReference.cache
+E:\MinecraftMods\ProjectPrime\Lessop\obj\Debug\net10.0-windows10.0.19041.0\win-x64\mauiimage.inputs
+E:\MinecraftMods\ProjectPrime\Lessop\obj\Debug\net10.0-windows10.0.19041.0\win-x64\mauifont.inputs
+E:\MinecraftMods\ProjectPrime\Lessop\obj\Debug\net10.0-windows10.0.19041.0\win-x64\mauisplash.inputs
+E:\MinecraftMods\ProjectPrime\Lessop\obj\Debug\net10.0-windows10.0.19041.0\win-x64\mauimanifest.stamp
+E:\MinecraftMods\ProjectPrime\Lessop\obj\Debug\net10.0-windows10.0.19041.0\win-x64\Platforms\Windows\App.g.i.cs
+E:\MinecraftMods\ProjectPrime\Lessop\obj\Debug\net10.0-windows10.0.19041.0\win-x64\Platforms\Windows\App.g.cs
+E:\MinecraftMods\ProjectPrime\Lessop\obj\Debug\net10.0-windows10.0.19041.0\win-x64\Platforms\Windows\App.xaml
+E:\MinecraftMods\ProjectPrime\Lessop\obj\Debug\net10.0-windows10.0.19041.0\win-x64\Platforms\Windows\App.xbf
+E:\MinecraftMods\ProjectPrime\Lessop\obj\Debug\net10.0-windows10.0.19041.0\win-x64\Lessop.dll
+E:\MinecraftMods\ProjectPrime\Lessop\obj\Debug\net10.0-windows10.0.19041.0\win-x64\refint\Lessop.dll
+E:\MinecraftMods\ProjectPrime\Lessop\obj\Debug\net10.0-windows10.0.19041.0\win-x64\Lessop.pdb

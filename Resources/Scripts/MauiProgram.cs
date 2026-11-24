@@ -2,8 +2,7 @@
 using Microsoft.Maui.LifecycleEvents;
 using Syncfusion.Maui.Core.Hosting;
 
-namespace 
-    ;
+namespace Lessop;
 
 public static class MauiProgram
 {

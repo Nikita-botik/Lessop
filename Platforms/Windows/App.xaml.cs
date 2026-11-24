@@ -1,5 +1,4 @@
-﻿namespace 
-    .WinUI;
+﻿namespace Lessop.WinUI;
 
 public partial class App : Microsoft.Maui.MauiWinUIApplication
 {
